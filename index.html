@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/youtubecarousel.css" rel="stylesheet">
     <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -35,40 +36,33 @@
 			<div class="float-right">
 				<ul class="nav nav-pills">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="#about">About</a></li>
 					<li><a href="slide.html">Gallery</a></li>
-					<li><a href="#">Platters TV</a></li>
-					<li><a href="#">Platters Pretenders</a></li>
+					<li><a href="#platterstv">Platters TV</a></li>
+					<li><a href="#tourdates">Tour Dates</a></li>
+					<li><a href="#pretenders">Platters Pretenders</a></li>
 				</ul>
 			</div>
-			<h3>The Platters: The Legacy</h3>
 		</div>
 
-	<section id="home" name="home"></section>
+	<section id="top" name="home"></section>
 	<div id="headerwrap">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
-					
+					<h1>The Timeless Platters</h1>
 				</div>
 			</div><! --/row -->
 		</div><! --/container -->
 	</div><! --/headerwrap -->
 	
-	<section id="about" name="about"></section>
+	<section id="home" name="about"></section>
 	<div id="aboutwrap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 name-desc">
-					<h2>The Platters: The Legacy</h2>
-					
-					<div class="col-md-6">
-						<p>"The Platters were one of the most successful vocal groups of the early rock and roll era. Their distinctive sound was a bridge between the pre-rock Tin Pan Alley tradition and the burgeoning new genre. The act went through several personnel changes, with the most successful incarnation comprising lead tenor Tony Williams, David Lynch, Paul Robi, Herb Reed, and Zola Taylor. The group had 40 charting singles on the Billboard Hot 100 chart between 1955 and 1967, including four no. 1 hits."</p>
-					</div>
-					<div class="col-md-6">
-						<p>Today, The Platters are a beautiful vocal quartet comprised of stage and screen veterens; Wayne Miller, Valerie Victoria, Frank Pizarro, and Cheo Bourne.</p>
-					</div>
-					
+				<div class="col-md-8 col-md-offset-2 name-desc">
+					<h2>The Timeless Platters</h2>
+						<p>Originally formed in Los Angeles in 1952, The Platters are a legendary vocal group from the early rock and roll era. Their distinctive doo-wop sound and repertoire earned them four #1 hits, forty charting singles on the Billboard Hot 100, and a place in the Rock and Roll Hall of Fame. The band, which continues to perform today, is best known for songs such as “Only You”, “The Great Pretender”, “Smoke Gets in Your Eyes”,  “Twilight Time” and “My Prayer”.</p>
 				</div><! --/col-lg-8-->
 		
 			</div><!-- /row -->
@@ -77,17 +71,32 @@
 	
 	<! -- ABOUT SEPARATOR -->
 	<div class="sep about" data-stellar-background-ratio="0.5"></div>
+
+	<section id="about" name="about"></section>
+	<div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 text-left">
+					<h1>About The Platters</h1>
+					<p>More than just a wildly successful vocal group, The Platters  were in fact “International Ambassadors of Musical Goodwill” at a time in this country’s history, the late 1950s, where political and racial discontent made The Platters’ work and music all the more important and remarkable.</p>
+					<p>The Platters are indisputably one of the most significant musical groups of all time. They have been honored by virtually every institution that matters—The Rock and Roll Hall of Fame, The Vocal Group Hall of Fame, The Grammy Hall of Fame and many others.</p>
+					<p>With 40 charting singles, including four number one hits, baby-boomers and “The Greatest Generation” initially became most familiar with the group’s output. Their music, however, spans generations, with many of their songs seemingly embedded in the very DNA of people of all ages, genders and races (including Alvin and the Chipmunks and the penguins in “Happy Feet”).</p>
+					<p>Beyond their musical impact, similar to the way in which Jackie Robinson revolutionized race relations in the sports world, The Platters did so in music. As the first group to ever have a single—“Only You”—cross into the then-segregated “white” radio charts and top the version of “Only You” re-recorded by a white group (The Hilltoppers), The Platters’ contribution to eradicating racism that had been endemic to the music business in the United States since its inception cannot be understated.</p>
+					<p>Thus, between the group’s timeless recorded output and its cultural significance, The Platters’ place in the musical and historical landscape is unassailable.</p>
+					<p>What distinguishes The Platters from other groups is the emotional connection their music creates in listeners across wide demographic swatches. In essence, The Platters exist in a rarefied air similar to artists like Frank Sinatra; that is, The Platters serve a specific role in the lives of people and because of this, their music transcends genre and demography.</p>
+
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/servicewrap -->
 	
 	<! -- PORTFOLIO SECTION -->
-	<section id="portfolio" name="portfolio"></section>
+	<section id="platterstv" name="platterstv"></section>
 	<div id="portfoliowrap">
 		<div class="container text-center">
 			<div class="row">
-				<h1>Eloquent vocal music since 1953.</h1>
-				<a href="slide.html"><h3>Click here to view the Legacy Gallery.</h3></a>
-
-
-				<iframe width="640" height="480" src="//www.youtube.com/embed/PtXnUEW_OXw" frameborder="0" allowfullscreen></iframe>
+				<h1>Platters TV</h1>
+				<div id="yt_container" class="center"></div>
 				<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
 					<div class="project-wrapper">
 	                    <div class="project">
@@ -129,7 +138,34 @@
 			</div><!-- /row -->
 		</div><! --/container -->
 	</div><! --/Portfoliowrap -->
-	
+	<! -- SERVICE SECTION -->
+	<section id="tourdates" name="tourdates"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>The Platters on Tour</h1>
+					<h3>Stay connected for updates</h3>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->			
+		</div><! --/container -->
+	</div><! --/servicewrap -->
+	<section id="pretenders" name="pretenders"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 text-left">
+					<h1>Platters Pretenders</h1>
+					<em><p>The information provided below is intended to dispel any confusion around both the current Platters line up and the legacy of the Platters, generally.</p></em>
+					<p>This site and the information found within is the only officially sanctioned source of information, music, and videos. Any other entity claiming to be The Platters or claiming to have any authorization to use The Platters’ name is misrepresenting their rights.</p>
+					<em><p>Below is the outline of the judicial decisions which establish the clear Trademark rights.</p></em>
+					<p>In 2011, Herb Reed and his companies obtained judgments declaring that his rights to the name were superior to others, including Five Platters Inc. and Jean Bennett. </p>
+					<p>In March of 2014, Herb Reed’s companies were granted a judgment finidng they had superior rights to the name “The Platters” over Larry Marshak and his companies, who claimed to have received rights through FPI and/or Tony Williams.</p>
+					<p>In April of 2014, Reed’s company obtained a judgment againt The World Famous Platters requiring them to identify themselves as a “Tribute to The Platters” or a “Salute To The Platters.” </p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->			
+		</div><! --/container -->
+	</div><! --/servicewrap -->
 	<! -- SERVICE SECTION -->
 	<section id="services" name="services"></section>
 	<div id="servicewrap">
@@ -143,13 +179,13 @@
 			
 			<div class="row mt">
 				<div class="col-sm-4 service">
-					<i class="fa fa-twitter"></i><p>The Platters on Twitter</p>
+					<a href="https://twitter.com/theplattersnow"><i class="fa fa-twitter"></i></a><br><p>The Platters on Twitter</p>
 				</div>
 				<div class="col-sm-4 service">
-					<i class="fa fa-facebook"></i><p>The Platters on Facebook</p>
+					<i class="fa fa-facebook"></i><br><p>The Platters on Facebook</p>
 				</div>
 				<div class="col-sm-4 service">
-					<i class="fa fa-instagram"></i><p>The Platters on Instagram</p>
+					<a href="http://instagram.com/theplattersnow"><i class="fa fa-instagram"></i></a><br><p>The Platters on Instagram</p>
 				</div>
 			</div><! --/row -->
 			
@@ -185,6 +221,7 @@
 	<script src="assets/js/jquery.stellar.min.js"></script>
 	<script src="assets/js/fancybox/jquery.fancybox.js"></script>    
 	<script src="assets/js/main.js"></script>
+	<script src="js/jquery.youtubecarousel.js"></script>
 		<script>
 		$(function(){
 			$.stellar({
